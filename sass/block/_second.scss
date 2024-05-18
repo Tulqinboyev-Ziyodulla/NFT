@@ -1,0 +1,47 @@
+.nexus {
+
+    background: $bg-dark;
+
+    h2 {
+        color: #fff;
+        font-size: 48px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    &__card {
+        text-align: center;
+        background: #5224B5;
+        width: 360px;
+        gap: 32px;
+        padding: 34px 30px 55px;
+        transition: .5s;
+        margin-top: 30px;
+
+        &:hover {
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        p {
+            margin-top: 27px;
+            font-size: 24px;
+            margin: auto;
+        }
+    }
+
+}

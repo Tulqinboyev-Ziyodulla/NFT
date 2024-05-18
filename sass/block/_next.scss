@@ -1,0 +1,49 @@
+.next {
+    background-color: $bg-dark;
+    padding: 60px;
+
+    &__title {
+        text-align: center;
+
+        h2 {
+            color: #fff;
+            font-size: 48px;
+            line-height: 60px;
+            max-width: 870px;
+            margin: auto;
+        }
+
+        .in {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-top: 56px;
+
+            input {
+                width: 30%;
+                height: 50px;
+                border: 1px solid #FE8235;
+                color: #FE8235;
+                background-color: $bg-dark;
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            button {
+                width: 120px;
+                height: 50px;
+                background-color: #FE8235;
+                color: #fff;
+                font-size: 18px;
+                border: none;
+            }
+        }
+
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+}

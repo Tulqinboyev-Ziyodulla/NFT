@@ -1,0 +1,18 @@
+.currency{
+    width: 100%;
+
+    background: $bg-sy;
+    &__wrapper{
+        height: 248px;
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .currency__wrapper {
+
+        img {
+            cursor: pointer;
+        }
+    }
+}

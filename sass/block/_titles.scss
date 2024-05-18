@@ -1,0 +1,111 @@
+.titles {
+    background: $bg-dark;
+    color: #fff;
+    padding: 150px;
+
+    h2 {
+        font-size: 48px;
+        max-width: 720px;
+    }
+
+    &__p {
+        display: flex;
+        gap: 160px;
+        margin-top: 32px;
+
+        .pick {
+            font-size: 36px;
+            max-width: 400px;
+            line-height: 50px;
+        }
+
+    }
+
+    &__btn {
+        display: flex;
+        gap: 16px;
+        margin-top: 80px;
+
+        .one {
+            background-color: #7FFA8A;
+            color: #0A0A0A;
+            width: 90px;
+            height: 65px;
+            border: none;
+            font-size: 18px;
+        }
+
+        .two {
+            background-color: #252525;
+            color: #fff;
+            width: 92px;
+            height: 65px;
+            border: none;
+            font-size: 18px;
+            transition: .5s;
+
+            &:hover {
+                background-color: #7FFA8A;
+                color: #0A0A0A;
+                border-radius: 10px;
+            }
+        }
+
+        .three {
+            background-color: #252525;
+            color: #fff;
+            width: 115px;
+            height: 65px;
+            border: none;
+            font-size: 18px;
+            transition: .5s;
+
+            &:hover {
+                background-color: #7FFA8A;
+                color: #0A0A0A;
+                border-radius: 10px;
+            }
+        }
+
+        .four {
+            background-color: #252525;
+            color: #fff;
+            width: 220px;
+            height: 65px;
+            border: none;
+            font-size: 18px;
+            transition: .5s;
+
+            &:hover {
+                background-color: #7FFA8A;
+                color: #0A0A0A;
+                border-radius: 10px;
+            }
+        }
+
+        .five {
+            background-color: #252525;
+            color: #fff;
+            width: 142px;
+            height: 65px;
+            border: none;
+            font-size: 18px;
+            transition: .5s;
+
+            &:hover {
+                background-color: #7FFA8A;
+                color: #0A0A0A;
+                border-radius: 10px;
+            }
+        }
+
+        .search {
+            width: 64px;
+            height: 64px;
+            border: none;
+            background-color: #252525;
+            margin-left: 350px;
+        }
+    }
+
+}

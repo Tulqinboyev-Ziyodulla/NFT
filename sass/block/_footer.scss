@@ -1,0 +1,41 @@
+.footer {
+    background-color: $bg-py;
+    color: #fff;
+    height: 400px;
+    padding: 90px;
+
+    img {
+        cursor: pointer;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+
+            p {
+                font-size: 16px;
+                max-width: 200px;
+                margin-top: 30px;
+                line-height: 24px;
+            }
+        }
+
+        .food {
+
+            img {
+                margin-top: 16px;
+            }
+
+            .font {
+                font-weight: 800;
+                font-size: 18px;
+            }
+
+            p {
+                margin-top: 16px;
+            }
+        }
+    }
+}
